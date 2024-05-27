@@ -1,0 +1,75 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chime Customer Help</title>
+    <style>
+        body {
+            font-family: "SF Pro Text", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f7;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .call-button {
+            display: inline-block;
+            background-color: #083484;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .call-button:hover {
+            background-color: #0874dc;
+        }
+
+        .logo {
+            width: 160px;
+            height: 40px;
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: #888;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <img alt="Chime Logo" class="logo" src="data:image/png;base64,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JfLWBH7+rDUtuo0cXxgtgtUnByn/hOAeG0uG/cWfHctqpCVcEUblcRFPpsGYKaOZaZmMxLOT46npviGvRJBFzRsNNbiwHnEnsKX3jDupYzinq4SMlJ8/Sx66wGtx+9teYsHrUhlVhzjUW13a3mfWL+gZs3FmPo9GxfHEBiwrk2x4z9aMBpCOlltP0eDSl3y/HK0vZbQqH+nPooib/6AMX+JFL2J9xkUXdnfIgWm791U6K1r89zOb585N/+Z5/h1fTXF3B9TxbGl4QIfUlzvfOZMFjFOq3gvVqyaZEUkmrF6+Qp2YPREzFcfMMuiV0dP/bpgFDS5HqHB9yFpr2J/PbnptTe7xm9hOmS+vu9umVWi8nOJHUllPyGP54/d1vDmBBpVqdtBSSsgJ28+KXqB/vrAl8+DYD9J3PkoXfcfY7OAs1gLw56oQ6trSdt+L2iUJGOsfnvtS68GL6GzpIz5bGqW8KFXx/C4AW0bk6L3EQ3lSWMOmdTWF4kde2I9ktli+Lt+iKK+sJD/r1EuKXL+xrSNc1hu/jZctQs+WjllG8SI5ioap4DaRKiIalaFMzmWnUxnYDwz9YTidf7b/MvPAuH9d3Dtrc8GZ3qJtmhPldn3N1wxdo2JjFXq1a2abIYt+FT5oDbvQ4CcDpjmRwHAvUjMtft0pueB8n6SCtNgjhRfifijOvIHvalk/+6EmWw/0a9Yyq2/ztjt7NY/YTS4UDtAN7v32cyfRSqoVjl9lzSut9vRYzVFHLWdliG9AOgFx63lvVQCHfDk/NU/+r5qfY74ZrvKl2+kdzhZm9vX18ta7iVpJT4F5x7bo8V/qDJ1emCNTqVvt8jkycKxn678pHZ/o4I57iP1lw+DrICIb8B/PPzeAWPDdOlezB7UMFipDYl2Vgep3ID2YNOTYlQsDT5Vk9f+xJDtm39Uc6kyr9138vmH3ZqGnov3b7okJ6rSDfc3QZfk9VEcedcZXB9WFJEEABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABEAABBoVgf8HB/Svci0m9u0AAAAASUVORK5CYII=" alt="Chime Logo" >
+    <h2>Chime Customer Helpdesk</h2>
+    <p>Navigating Chime just got easier with our dedicated customer service team. Call us now for personalized assistance, ensuring swift and secure resolution of any account issues. Rest assured, our support meets all industry standards, guaranteeing a hassle-free experience for you.</p>
+    <a class="call-button" href="#" onclick="dialNumber()">Call Chime Now</a>
+    <p></p>
+        <a class="call-button" href="#" onclick="dialNumber()">+1 (888) 726-8509</a>
+    <p>Whether you need help with transactions, account setup, or general inquiries, our knowledgeable representatives are here to provide reliable support. With our commitment to excellence, you can trust us to address your concerns promptly and effectively. We're here to provide you with expert guidance and assistance, ensuring your Chime experience is exceptional from start to finish.</p>
+    <a class="call-button" href="#" onclick="dialNumber()">Chime Help & Assistance</a>
+    <p>Our customer service team is committed to making your Chime experience as smooth as possible. We prioritize your security and satisfaction, ensuring every interaction is handled with care and expertise. Call us today and experience the difference of dedicated support that's tailored to your needs. Let us help you navigate Chime effortlessly, so you can focus on what matters most to you.</p>
+    <p class="footer">© 2024 Chime Inc. All rights reserved.</p>
+    <script>
+        function dialNumber() {
+            window.location.href = "tel:" + encodeURIComponent("+1 (888) 726-8509");
+        }
+    </script>
+</body>
+</html>
